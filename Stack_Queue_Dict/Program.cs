@@ -30,7 +30,7 @@ namespace Stack_Queue_Dict
 
             // Dictionaries are sort of like lists, except rather than indexed by an integer, they can be indexed by other things.
             string testString = "TechCareers teach code";
-            // Create a dictionary indexed by characters (instead of ints like everything else).
+            // Create a dictionary indexed by characters (instead of ints like everything else)...
             Dictionary<char, int> charCounts = new Dictionary<char, int>();
             for (char i = 'a'; i <= 'z'; i++)
             {
